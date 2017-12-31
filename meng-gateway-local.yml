@@ -43,7 +43,7 @@ zuul:
   routes:
     auth-service:
       path: /auth/**
-      serviceId: -auth-service
+      serviceId: meng-auth-service
       stripPrefix: true
       sensitiveHeaders:
     pig-admin-service:
